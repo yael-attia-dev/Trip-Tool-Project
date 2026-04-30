@@ -1,29 +1,37 @@
+<div dir="rtl">
+
+
 📍 Trip Tool - מערכת ניהול ובקרת טיולים לבית ספר
 המערכת מיועדת למורים ומורות בבית ספר על מנת לארגן יציאה לטיולים. המערכת מאפשרת אזור אישי לכל מורה שבו יוכלו לצפות ברשימה מסודרת של כל התלמידים שבכיתתם שנמצאים בטיול.
 כמו כן המערכת משודרגת בפיצ'ר מיוחד שמקבל מיקומים של תלמידות בזמן אמת ממכשירי איכון שניתנו להן, המערכת מציגה את כל התלמידות על גבי מפה ויזואלית ונותנת אפשרות למורה לעקוב אחר מיקומן ולוודא שאין תלמידות שהתרחקו מדי.
 
+
+
 🛠️ Technologies & Dependencies (תלויות חיצוניות)
 כדי להריץ את הפרויקט, יש לוודא שמותקנות התלויות הבאות:
 
-Backend (Java Spring Boot)
-Java JDK 17 ומעלה.
+⚙️Backend (Java Spring Boot) 
+🟢Java JDK 17 ומעלה.
 
-Maven (לניהול תלויות והרצת הפרויקט).
+🟢Maven (לניהול תלויות והרצת הפרויקט).
 
-SQL Database (MySQL / PostgreSQL וכו') – יש לוודא ששרת ה-SQL פעיל.
+🟢SQL Database (MySQL )
 
-Lombok – מומלץ להתקין Plugin ב-IDE לקיצור כתיבת קוד.
+🟢Spring Boot Starter Data JPA – לחיבור למסד הנתונים.
 
-Spring Boot Starter Data JPA – לחיבור למסד הנתונים.
 
-Frontend (React)
-Node.js (גרסה 16 ומעלה) ו-npm.
 
-Material UI (@mui/material) – עבור רכיבי הממשק והעיצוב.
+💻Frontend (React)
+🟢Node.js (גרסה 16 ומעלה) ו-npm.
 
-Leaflet & React-Leaflet – הספרייה להצגת המפות (OpenStreetMap).
+🟢Material UI (@mui/material) – עבור רכיבי הממשק והעיצוב.
 
-Axios – לביצוע קריאות ה-API מול השרת.
+🟢Leaflet & React-Leaflet – הספרייה להצגת המפות (OpenStreetMap).
+
+🟢Axios – לביצוע קריאות ה-API מול השרת.
+
+
+
 
 
 📖 אופן השימוש (User Guide)
@@ -48,29 +56,45 @@ Axios – לביצוע קריאות ה-API מול השרת.
 צילום מסך: טבלת אזהרות מרחק ![Distance Alerts](./screenshots/distAlert.png)
 
 
-⚙️ How to Run
-Backend
-נווטי לתיקיית BackEnd-Trip-Manager.
 
-פתחי את קובץ src/main/resources/application.properties ועדכני את פרטי החיבור ל-SQL שלך (URL, Username, Password).
 
-הריצי בטרמינל: mvn spring-boot:run.
 
-Frontend
-נווטי לתיקיית hadasim-trip-frontend.
 
-התקיני את כל הספריות: npm install.
+❓ How to Run
+⚙️Backend
+🟢נווטי לתיקיית BackEnd-Trip-Manager.
 
-הריצי את הפיתוח: npm run dev.
+🟢פתחי את קובץ src/main/resources/application.properties ועדכני את פרטי החיבור ל-SQL שלך (URL, Username, Password).
 
-פתחי את הדפדפן בכתובת: http://localhost:5173.
+🟢הריצי בטרמינל: mvn spring-boot:run.
+
+
+💻Frontend
+🟢נווטי לתיקיית hadasim-trip-frontend.
+
+🟢התקיני את כל הספריות: npm install.
+
+🟢הריצי את הפיתוח: npm run dev.
+
+🟢פתחי את הדפדפן בכתובת: http://localhost:5173.
+
+
+
+
+
 
 💡 הנחות מקלות
-מיקום המורה: לצורך החישובים, מיקום המורה מוגדר כנקודת מוצא קבועה בשרת.
+🟢מיקום המורה: לצורך החישובים, מיקום המורה מוגדר כנקודת מוצא קבועה בשרת.
 
-אבטחה: האימות מבוסס על בדיקת ת"ז וסיסמה מול מסד הנתונים (ללא שימוש ב-JWT).
+🟢אבטחה: האימות מבוסס על בדיקת ת"ז וסיסמה מול מסד הנתונים (ללא שימוש ב-JWT).
 
-סימולטור: תנועת התלמידות במפה מופעלת על ידי רכיב סימולציה פנימי המעדכן קואורדינטות באופן אקראי ב-Database.
+🟢סימולטור: תנועת התלמידות במפה מופעלת על ידי רכיב סימולציה פנימי המעדכן קואורדינטות באופן אקראי ב-Database.
+
+
+
 
 👩‍💻 Author
 Yael Attia
+
+
+</div>
