@@ -7,10 +7,12 @@
 
 
 
-🛠️ Technologies & Dependencies (תלויות חיצוניות)
+🛠️ Technologies & Dependencies 
+
 כדי להריץ את הפרויקט, יש לוודא שמותקנות התלויות הבאות:
 
 ⚙️Backend (Java Spring Boot) 
+
 🟢Java JDK 17 ומעלה.
 
 🟢Maven (לניהול תלויות והרצת הפרויקט).
@@ -22,6 +24,7 @@
 
 
 💻Frontend (React)
+
 🟢Node.js (גרסה 16 ומעלה) ו-npm.
 
 🟢Material UI (@mui/material) – עבור רכיבי הממשק והעיצוב.
@@ -61,7 +64,9 @@
 
 
 ❓ How to Run
+
 ⚙️Backend
+
 🟢נווטי לתיקיית BackEnd-Trip-Manager.
 
 🟢פתחי את קובץ src/main/resources/application.properties ועדכני את פרטי החיבור ל-SQL שלך (URL, Username, Password).
@@ -70,6 +75,7 @@
 
 
 💻Frontend
+
 🟢נווטי לתיקיית hadasim-trip-frontend.
 
 🟢התקיני את כל הספריות: npm install.
@@ -84,6 +90,7 @@
 
 
 💡 הנחות מקלות
+
 🟢מיקום המורה: לצורך החישובים, מיקום המורה מוגדר כנקודת מוצא קבועה בשרת.
 
 🟢אבטחה: האימות מבוסס על בדיקת ת"ז וסיסמה מול מסד הנתונים (ללא שימוש ב-JWT).
