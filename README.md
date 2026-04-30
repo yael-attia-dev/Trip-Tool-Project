@@ -7,11 +7,11 @@
 
 
 
-🛠️ Technologies & Dependencies 
+🛠️ Technologies & Dependencies -טכונלוגיות עיקריות 
 
 כדי להריץ את הפרויקט, יש לוודא שמותקנות התלויות הבאות:
 
-⚙️Backend (Java Spring Boot) 
+⚙️Backend (Java Spring Boot) - בקאנד 
 
 🟢Java JDK 17 ומעלה.
 
@@ -23,7 +23,7 @@
 
 
 
-💻Frontend (React)
+💻Frontend (React) - פרונטאנד
 
 🟢Node.js (גרסה 16 ומעלה) ו-npm.
 
@@ -63,18 +63,20 @@
 
 
 
-❓ How to Run
+❓ How to Run- איך מריצים
 
-⚙️Backend
+⚙️Backend-בקאנד
 
 🟢נווטי לתיקיית BackEnd-Trip-Manager.
 
 🟢פתחי את קובץ src/main/resources/application.properties ועדכני את פרטי החיבור ל-SQL שלך (URL, Username, Password).
 
-🟢הריצי בטרמינל: mvn spring-boot:run.
+🟢הריצי בטרמינל: .\mvnw spring-boot:run
 
 
-💻Frontend
+
+
+💻Frontend-פרונטאנד
 
 🟢נווטי לתיקיית hadasim-trip-frontend.
 
@@ -100,8 +102,8 @@
 
 
 
-👩‍💻 Author
-Yael Attia
+👩‍💻 Author - נכתב על ידי
+Yael Attia - יעל עטיה
 
 
 </div>
